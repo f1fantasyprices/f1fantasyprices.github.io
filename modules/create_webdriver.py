@@ -4,6 +4,7 @@ from selenium.webdriver.firefox.options import Options
 import platform
 import os
 
+
 def create_webdriver():
     options = Options()
     #options.headless = True

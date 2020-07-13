@@ -1,7 +1,7 @@
 
 from modules.xpaths import get_xpaths
 from modules.helpers import *
-
+import os
 
 
 import time
@@ -10,7 +10,7 @@ import time
 
 def get_prices(webdriver, credentials):
 
-
+    wdir = os.path.dirname(os.path.abspath(__file__))
     webdriver.set_window_size(1920, 1080)
     xpaths = get_xpaths()
     ## Load account page
@@ -50,20 +50,18 @@ def get_prices(webdriver, credentials):
     element = webdriver.find_element_by_class_name(xpaths['driver_card'])
     html = element.get_attribute('innerHTML')
     driver_df = get_drivers(html)
-    driver_df.to_excel("driver_df.xlsx", index = False)
-    print(driver_df)
 
-    update_driver_prices(pd.read_excel('driver_df.xlsx'), 'driver_prices.xlsx')
+    update_driver_prices(driver_df, wdir + '/data/resources/driver_prices.xlsx')
 
 
     click_by_text(webdriver, 'span', 'CR')
+    time.sleep(3)
     element = webdriver.find_element_by_class_name(xpaths['driver_card'])
     html = element.get_attribute('innerHTML')
     constructor_df = get_drivers(html)
-    constructor_df.to_excel("constructor_df.xlsx", index=False)
-    print(constructor_df)
+    constructor_df.to_excel(wdir + "/data/resources/constructor_df.xlsx", index=False)
 
-    update_driver_prices(pd.read_excel('constructor_df.xlsx'), 'constructor_prices.xlsx')
+    update_driver_prices(driver_df, wdir + '/data/resources/constructor_prices.xlsx')
 
 
 
