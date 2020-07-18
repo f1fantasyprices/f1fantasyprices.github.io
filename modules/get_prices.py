@@ -16,16 +16,22 @@ def get_prices(webdriver, credentials):
     ## Load account page
 
     ### Enter account details
-
+    zoom_out(webdriver,5)
     element_load(webdriver, xpaths['sign_in_btn'], 10, "css")
     webdriver.find_element_by_class_name(xpaths['username']).send_keys(credentials['username'])
     webdriver.find_element_by_class_name(xpaths['password']).send_keys(credentials['password'])
     webdriver.find_element_by_css_selector(xpaths['sign_in_btn']).click()
 
 
-    element_load(webdriver, xpaths["swap_driver_1"], 10, "class")
+    element_load(webdriver, xpaths["manage"], 10, "xpath")
     time.sleep(5)
-    webdriver.find_element_by_class_name(xpaths['swap_driver_1']).click()
+    webdriver.find_element_by_xpath(xpaths['manage']).click()
+
+    try:
+        element_load(webdriver, xpaths['accept_cookie'], 10, "xpaths")
+        webdriver.find_element_by_xpath(xpaths['accept_cookie']).click()
+    except:
+        print("no cookie accept needed")
 
 
     element_load(webdriver, xpaths["next_1"], 10, "xpath")
@@ -61,7 +67,7 @@ def get_prices(webdriver, credentials):
     constructor_df = get_drivers(html)
     constructor_df.to_excel(wdir + "/data/resources/constructor_df.xlsx", index=False)
 
-    update_driver_prices(driver_df, wdir + '/data/resources/constructor_prices.xlsx')
+    update_driver_prices(constructor_df, wdir + '/data/resources/constructor_prices.xlsx')
 
 
 

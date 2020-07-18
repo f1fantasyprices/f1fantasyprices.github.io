@@ -20,12 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d0438cf-09f9-46ed-b9d9-471ceb8fb83c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/modules/grapher.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/create_webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/create_webdriver.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/get_prices.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/get_prices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/grapher.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/grapher.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/helpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/xpaths.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/xpaths.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,7 @@
       <recent name="C:\Users\Bart\Documents\f1_fantasy\modules\data\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.grapher">
     <configuration name="create_webdriver" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="f1_fantasy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,8 +164,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.grapher" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.get_prices" />
         <item itemvalue="Python.create_webdriver" />
@@ -177,7 +177,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0bfaa8fa-3070-4567-a792-7e8c672a02ee" name="Default Changelist" comment="" />
+      <changelist id="2d0438cf-09f9-46ed-b9d9-471ceb8fb83c" name="Default Changelist" comment="" />
       <created>1594309940311</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -218,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594664789044</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="excel still not working">
+      <created>1594667000775</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1594667000775</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,7 +244,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge branch 'master' of https://github.com/denzilly/robottas&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="Some cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some cleanup" />
+    <MESSAGE value="excel still not working" />
+    <option name="LAST_COMMIT_MESSAGE" value="excel still not working" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594664719963">
@@ -248,31 +256,31 @@
       <screen x="0" y="62" width="3200" height="1738" />
     </state>
     <state x="1138" y="332" width="914" height="1208" key="#create_webdriver/0.62.3200.1738@0.62.3200.1738" timestamp="1594508689372" />
-    <state x="908" y="264" key="CommitChangelistDialog2" timestamp="1594664788337">
+    <state x="908" y="264" key="CommitChangelistDialog2" timestamp="1594667000250">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="908" y="264" key="CommitChangelistDialog2/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594664788337" />
+    <state x="908" y="264" key="CommitChangelistDialog2/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594667000250" />
     <state x="1026" y="408" key="FileChooserDialogImpl" timestamp="1594664229390">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1282" y="569" key="FileChooserDialogImpl/0.62.3200.1738@0.62.3200.1738" timestamp="1594549599097" />
     <state x="1026" y="408" key="FileChooserDialogImpl/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594664229390" />
-    <state width="1269" height="401" key="GridCell.Tab.0.bottom" timestamp="1594666985737">
+    <state width="2539" height="409" key="GridCell.Tab.0.bottom" timestamp="1595081210928">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1269" height="401" key="GridCell.Tab.0.bottom/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594666985737" />
-    <state width="1269" height="401" key="GridCell.Tab.0.center" timestamp="1594666985737">
+    <state width="2539" height="409" key="GridCell.Tab.0.bottom/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595081210928" />
+    <state width="2539" height="409" key="GridCell.Tab.0.center" timestamp="1595081210928">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1269" height="401" key="GridCell.Tab.0.center/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594666985737" />
-    <state width="1269" height="401" key="GridCell.Tab.0.left" timestamp="1594666985737">
+    <state width="2539" height="409" key="GridCell.Tab.0.center/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595081210928" />
+    <state width="2539" height="409" key="GridCell.Tab.0.left" timestamp="1595081210912">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1269" height="401" key="GridCell.Tab.0.left/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594666985737" />
-    <state width="1269" height="401" key="GridCell.Tab.0.right" timestamp="1594666985737">
+    <state width="2539" height="409" key="GridCell.Tab.0.left/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595081210912" />
+    <state width="2539" height="409" key="GridCell.Tab.0.right" timestamp="1595081210928">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1269" height="401" key="GridCell.Tab.0.right/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594666985737" />
+    <state width="2539" height="409" key="GridCell.Tab.0.right/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595081210928" />
     <state width="2539" height="492" key="GridCell.Tab.1.bottom" timestamp="1594323300124">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -298,14 +306,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="872" y="433" key="Vcs.Push.Dialog.v2/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594664790429" />
-    <state x="976" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1594506469570">
+    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1595074649614">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="976" y="524" key="com.intellij.ide.util.TipDialog/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594506469570" />
+    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595074649614" />
+    <state x="976" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1595060875216">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="976" y="524" key="com.intellij.ide.util.TipDialog/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595060875216" />
     <state x="851" y="436" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1594323299201">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="851" y="436" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594323299201" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1595070473817">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595070473817" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

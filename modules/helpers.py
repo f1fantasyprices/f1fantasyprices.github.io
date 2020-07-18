@@ -153,7 +153,7 @@ def update_driver_prices(df,filename):
     new_prices['Timestamp'] = datetime.datetime(now.year, now.month, now.day, now.hour, now.minute, now.second)
 
     for row in df.iterrows():
-        new_prices[row[1]['name']] = row[1]['price'][1:row[1]['price'].find("m")]
+        new_prices[row[1]['name']] = float(row[1]['price'][1:row[1]['price'].find("m")])
     new_row = pd.DataFrame.from_records([new_prices])
     print("NEW ROW#######################################")
     print(new_row)
@@ -165,7 +165,7 @@ def update_driver_prices(df,filename):
     dprices_df = dprices_df.append(new_row, ignore_index=True)
     print("APPENDED###########")
     print(dprices_df)
-    dprices_df.to_excel(wdir + '/data/resources/driver_prices.xlsx', index=False)
+    dprices_df.to_excel(filename, index=False)
 
 
 
