@@ -10,8 +10,7 @@ from selenium.webdriver.common.keys import Keys
 
 from pynput.mouse import Controller, Button
 import time
-import datetime
-
+from datetime import datetime, date
 
 wdir = os.path.dirname(os.path.abspath(__file__))
 
@@ -150,7 +149,7 @@ def update_driver_prices(df,filename):
 
     #Create new row to add
     new_prices = {}
-    new_prices['Timestamp'] = datetime.datetime(now.year, now.month, now.day, now.hour, now.minute, now.second)
+    new_prices['Timestamp'] = datetime.datetime(now.year, now.month, now.day, now.hour)
 
     for row in df.iterrows():
         new_prices[row[1]['name']] = float(row[1]['price'][1:row[1]['price'].find("m")])
@@ -169,7 +168,35 @@ def update_driver_prices(df,filename):
 
 
 
+def check_raceday():
 
+    race_or_quali_dates_raw = [ "18-07-2020",
+                            "19-07-2020",
+                            "01-08-2020",
+                            "02-08-2020",
+                            "08-08-2020",
+                            "09-08-2020",
+                            "15-08-2020",
+                            "16-08-2020",
+                            "29-08-2020",
+                            "30-08-2020",
+                            "05-09-2020",
+                            "06-09-2020",
+                            "12-09-2020",
+                            "13-09-2020",
+                            "26-09-2020",
+                            "27-09-2020",
+                            ]
+    race_or_quali_dates = []
+
+    for x in race_or_quali_dates_raw:
+        race_or_quali_dates.append(datetime.strptime(x, "%d-%m-%Y").date())
+    today = datetime.today().date()
+
+    if today in race_or_quali_dates:
+        return True
+    else:
+        return False
 
 
 

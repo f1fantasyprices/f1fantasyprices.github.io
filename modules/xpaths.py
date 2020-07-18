@@ -67,8 +67,35 @@ def get_team_colors():
         "Williams": "#091617",
         "Red Bull": "#022fa2",
         "Alfa Romeo": "#860101",
-        "Alpha Tauri": "#3c86fd",
+        "AlphaTauri": "#3c86fd",
         "Racing Point": "#ef7fbb",
     }
 
     return team_colors
+
+def get_abrreviated_names():
+
+
+    abb = {
+        "V. Bottas": "VB",
+        "L. Hamilton": "LH",
+        "S. Vettel": "SV",
+        "C. Leclerc": "CL",
+        "C. Sainz": "CS",
+        "L. Norris": "LN",
+        "D. Ricciardo": "DR",
+        "E. Ocon": "EO",
+        "R. Grosjean": "RG",
+        "K. Magnussen": "KM",
+        "N. Latifi": "NL",
+        "G. Russell": "GR",
+        "M. Verstappen": "MV",
+        "A. Albon": "AA",
+        "A. Giovinazzi": "AG",
+        "K. Räikkönen": "KR",
+        "D. Kvyat": "DK",
+        "P. Gasly": "PG",
+        "S. Perez": "SP",
+        "L. Stroll": "LS",
+    }
+    return abb

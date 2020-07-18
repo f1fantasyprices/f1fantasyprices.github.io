@@ -4658,42 +4658,45 @@ console.error: "Error while calling actor 'layout's method 'getGrids'" "node is 
 console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:162:37\nonPacket@resource://devtools/server/devtools-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
 console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
 console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:162:37\nonPacket@resource://devtools/server/devtools-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
-interaction.js:416:10
-webdriverClickElement@chrome://marionette/content/interaction.js:182:31
-1595071649530	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://marionette/content/sync.js:245:13
-TimedPromise@chrome://marionette/content/sync.js:230:10
-interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
-webdriverClickElement@chrome://marionette/content/interaction.js:182:31
-1595071659476	Marionette	INFO	Stopped listening on port 9166
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:162:37\nonPacket@resource://devtools/server/devtools-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:162:37\nonPacket@resource://devtools/server/devtools-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:162:37\nonPacket@resource://devtools/server/devtools-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:162:37\nonPacket@resource://devtools/server/devtools-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:162:37\nonPacket@resource://devtools/server/devtools-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+1595098099662	Marionette	INFO	Stopped listening on port 7875
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-1595071663445	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Bart\\AppData\\Local\\Temp\\rust_mozprofileQX5lTF"
+ "C:\\Users\\Bart\\AppData\\Local\\Temp\\rust_mozprofile0lWp48"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1595071664874	Marionette	INFO	Listening on port 9316
-1595071664952	Marionette	WARN	TLS certificate errors will be ignored for this session
-1595071676803	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://marionette/content/sync.js:245:13
-TimedPromise@chrome://marionette/content/sync.js:230:10
-interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
-webdriverClickElement@chrome://marionette/content/interaction.js:182:31
-1595071694452	Marionette	INFO	Stopped listening on port 9316
+1595083444176	Marionette	INFO	Listening on port 2066
+1595083444534	Marionette	WARN	TLS certificate errors will be ignored for this session
 IPDL protocol error: Handler returned error code!
 
 ###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
 
-IPDL protocol error: Handler returned error code!
+1595083518676	Marionette	INFO	Stopped listening on port 2066
 
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-IPDL protocol error: Handler returned error code!
 
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-IPDL protocol error: Handler returned error code!
+1595087561535	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Bart\\AppData\\Local\\Temp\\rust_mozprofile9FkiH2"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1595087564316	Marionette	INFO	Listening on port 3864
+1595087564653	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595087895311	Marionette	INFO	Stopped listening on port 3864
 
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
