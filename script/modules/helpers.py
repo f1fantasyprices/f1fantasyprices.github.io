@@ -219,7 +219,7 @@ def markdown_table(df_path, drivers=True):
             newrow = ""
             count += 1
         else:
-            newrow += f"| {column} | {df[column].iloc[-1]} |"
+            newrow += f"| {column} | ${df[column].iloc[-1]}M |"
             count += 1
 
     return table

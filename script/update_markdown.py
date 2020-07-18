@@ -19,11 +19,19 @@ content = f"""
 
 ![driver_prices](./script/modules/data/resources/driver_prices.png)
 
+<center>
+
 {markdown_table(ddf, drivers=True)}
+
+</center>
 
 ![constructor](./script/modules/data/resources/constructor_prices.png)
 
+<center>
+
 {markdown_table(cdf, drivers = False)}
+
+</center>
 
 Last updated at {datetime.datetime.now()}
 
