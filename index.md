@@ -2,10 +2,9 @@
 
 ![driver_prices](./script/modules/data/resources/driver_prices.png)
 
-<center>
 
 | Driver | Price | Driver | Price |
-|----|----|----|----|
+| ---- | ---- | ---- | ---- |
 | L. Hamilton | $11M | V. Bottas | $5M |
 | M. Verstappen | $35M | C. Leclerc | $11M |
 | S. Vettel | $20M | A. Albon | $16M |
@@ -17,7 +16,6 @@
 | K. Magnussen | $7M | G. Russell | $17M |
 | N. Latifi | $19M | R. Grosjean | $23M |
 
-</center>
 
 ![constructor](./script/modules/data/resources/constructor_prices.png)
 

@@ -24,15 +24,12 @@
       <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/script/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/script/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/script/modules/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/_site/script/modules/helpers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/script/update_markdown.py" beforeDir="false" afterPath="$PROJECT_DIR$/_site/script/update_markdown.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/venv/Lib/site-packages/CHANGES.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/venv/Lib/site-packages/CHANGES.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/venv/Lib/site-packages/docs/changes.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/venv/Lib/site-packages/docs/changes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/venv/Lib/site-packages/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/venv/Lib/site-packages/docs/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/venv/Lib/site-packages/docs/reference.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/venv/Lib/site-packages/docs/reference.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/venv/Lib/site-packages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/venv/Lib/site-packages/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/modules/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/modules/helpers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script/update_markdown.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/update_markdown.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -292,22 +289,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1139" y="601" key="GitRewordDialog/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595103666338" />
-    <state width="2539" height="409" key="GridCell.Tab.0.bottom" timestamp="1595112095959">
+    <state width="2539" height="409" key="GridCell.Tab.0.bottom" timestamp="1595113036987">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="409" key="GridCell.Tab.0.bottom/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595112095959" />
-    <state width="2539" height="409" key="GridCell.Tab.0.center" timestamp="1595112095959">
+    <state width="2539" height="409" key="GridCell.Tab.0.bottom/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595113036987" />
+    <state width="2539" height="409" key="GridCell.Tab.0.center" timestamp="1595113036987">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="409" key="GridCell.Tab.0.center/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595112095959" />
-    <state width="2539" height="409" key="GridCell.Tab.0.left" timestamp="1595112095959">
+    <state width="2539" height="409" key="GridCell.Tab.0.center/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595113036987" />
+    <state width="2539" height="409" key="GridCell.Tab.0.left" timestamp="1595113036987">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="409" key="GridCell.Tab.0.left/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595112095959" />
-    <state width="2539" height="409" key="GridCell.Tab.0.right" timestamp="1595112095959">
+    <state width="2539" height="409" key="GridCell.Tab.0.left/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595113036987" />
+    <state width="2539" height="409" key="GridCell.Tab.0.right" timestamp="1595113036987">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="409" key="GridCell.Tab.0.right/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595112095959" />
+    <state width="2539" height="409" key="GridCell.Tab.0.right/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595113036987" />
     <state width="2539" height="492" key="GridCell.Tab.1.bottom" timestamp="1595092306773">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
