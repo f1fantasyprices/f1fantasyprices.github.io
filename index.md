@@ -10,7 +10,7 @@
 | C. Sainz | 6 | D. Ricciardo | $4M |
 | L. Norris | 11 | E. Ocon | $5M |
 | P. Gasly | 21 | S. Perez | $19M |
-| K. Räikkönen | 38 | D. Kvyat | $26M |
+| K. Raikkonen | 38 | D. Kvyat | $26M |
 | L. Stroll | 23 | A. Giovinazzi | $-3M |
 | K. Magnussen | 7 | G. Russell | $17M |
 | N. Latifi | 19 | R. Grosjean | $23M |
@@ -25,5 +25,5 @@
 | Renault | 17 | Racing Point | $24M |
 | Haas | 4 | McLaren | $-1M |
 
-Last updated at 2020-07-18 23:48:09.720322
+Last updated at 2020-07-19 00:38:13.143203
 
