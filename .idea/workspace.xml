@@ -20,8 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d0438cf-09f9-46ed-b9d9-471ceb8fb83c" name="Default Changelist" comment="squash! working grapher built">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/script/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/script/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/script/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/create_webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/modules/create_webdriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/data/logs/accounts.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/script/modules/data/logs/accounts.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/data/logs/~$accounts.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/script/modules/data/logs/~$accounts.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/data/resources/constructor_prices.png" beforeDir="false" afterPath="$PROJECT_DIR$/script/modules/data/resources/constructor_prices.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/data/resources/constructor_prices.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/script/modules/data/resources/constructor_prices.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/data/resources/driver_prices.png" beforeDir="false" afterPath="$PROJECT_DIR$/script/modules/data/resources/driver_prices.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/data/resources/driver_prices.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/script/modules/data/resources/driver_prices.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/data/resources/geckodriver" beforeDir="false" afterPath="$PROJECT_DIR$/script/modules/data/resources/geckodriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/data/resources/geckodriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/script/modules/data/resources/geckodriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/script/modules/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/get_prices.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/modules/get_prices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/grapher.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/modules/grapher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/modules/helpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/source.html" beforeDir="false" afterPath="$PROJECT_DIR$/script/modules/source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/supervisor/robottas.conf" beforeDir="false" afterPath="$PROJECT_DIR$/script/modules/supervisor/robottas.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/supervisor/supervisord.conf" beforeDir="false" afterPath="$PROJECT_DIR$/script/modules/supervisor/supervisord.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/xpaths.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/modules/xpaths.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +74,7 @@
       <recent name="C:\Users\Bart\Documents\f1_fantasy\modules\data\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="get_prices" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="f1_fantasy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,7 +117,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="helpers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="f1_fantasy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,11 +125,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/script" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/helpers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/script/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +150,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Bart\Documents\f1_price_tracker\script\main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,7 +171,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Bart\Documents\f1_price_tracker\script\test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.grapher" />
         <item itemvalue="Python.get_prices" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.helpers" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594667000775</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="squash! working grapher built">
+      <created>1595103840439</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1595103840439</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,7 +271,8 @@
     <MESSAGE value="Some cleanup" />
     <MESSAGE value="working grapher built" />
     <MESSAGE value="excel still not working" />
-    <option name="LAST_COMMIT_MESSAGE" value="excel still not working" />
+    <MESSAGE value="squash! working grapher built" />
+    <option name="LAST_COMMIT_MESSAGE" value="squash! working grapher built" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594664719963">
@@ -253,10 +283,14 @@
       <screen x="0" y="62" width="3200" height="1738" />
     </state>
     <state x="1138" y="332" width="914" height="1208" key="#create_webdriver/0.62.3200.1738@0.62.3200.1738" timestamp="1594508689372" />
-    <state x="908" y="264" key="CommitChangelistDialog2" timestamp="1595103772321">
+    <state x="908" y="264" key="CommitChangelistDialog2" timestamp="1595103857900">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="908" y="264" key="CommitChangelistDialog2/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595103772321" />
+    <state x="908" y="264" key="CommitChangelistDialog2/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595103857900" />
+    <state x="222" y="92" width="2048" height="1148" key="DiffContextDialog" timestamp="1595103902344">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="222" y="92" width="2048" height="1148" key="DiffContextDialog/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595103902344" />
     <state x="1026" y="408" key="FileChooserDialogImpl" timestamp="1594664229390">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -266,22 +300,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1139" y="601" key="GitRewordDialog/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595103666338" />
-    <state width="2539" height="409" key="GridCell.Tab.0.bottom" timestamp="1595103585931">
+    <state width="2539" height="409" key="GridCell.Tab.0.bottom" timestamp="1595104108119">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="409" key="GridCell.Tab.0.bottom/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595103585931" />
-    <state width="2539" height="409" key="GridCell.Tab.0.center" timestamp="1595103585931">
+    <state width="2539" height="409" key="GridCell.Tab.0.bottom/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595104108119" />
+    <state width="2539" height="409" key="GridCell.Tab.0.center" timestamp="1595104108119">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="409" key="GridCell.Tab.0.center/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595103585931" />
-    <state width="2539" height="409" key="GridCell.Tab.0.left" timestamp="1595103585931">
+    <state width="2539" height="409" key="GridCell.Tab.0.center/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595104108119" />
+    <state width="2539" height="409" key="GridCell.Tab.0.left" timestamp="1595104108119">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="409" key="GridCell.Tab.0.left/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595103585931" />
-    <state width="2539" height="409" key="GridCell.Tab.0.right" timestamp="1595103585931">
+    <state width="2539" height="409" key="GridCell.Tab.0.left/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595104108119" />
+    <state width="2539" height="409" key="GridCell.Tab.0.right" timestamp="1595104108119">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="409" key="GridCell.Tab.0.right/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595103585931" />
+    <state width="2539" height="409" key="GridCell.Tab.0.right/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595104108119" />
     <state width="2539" height="492" key="GridCell.Tab.1.bottom" timestamp="1595092306773">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -332,11 +366,11 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/helpers.py</url>
+          <url>file://$PROJECT_DIR$/script/modules/helpers.py</url>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/create_webdriver.py</url>
+          <url>file://$PROJECT_DIR$/script/modules/create_webdriver.py</url>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

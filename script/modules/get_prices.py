@@ -1,6 +1,6 @@
 
-from modules.xpaths import get_xpaths
-from modules.helpers import *
+from script.modules.xpaths import get_xpaths
+from script.modules.helpers import *
 import os
 
 

@@ -1,10 +1,9 @@
-import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import os
 import matplotlib
-from modules.xpaths import get_driver_colors, get_team_colors, get_abrreviated_names
+from script.modules.xpaths import get_driver_colors, get_team_colors, get_abrreviated_names
 from matplotlib.dates import DateFormatter
 
 
