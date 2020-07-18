@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
 title: F1 Fantasy Price Tracker
 description: Hourly updates for F1 Fantasy prices
+encoding: UTF-8
