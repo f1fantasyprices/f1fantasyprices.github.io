@@ -199,7 +199,30 @@ def check_raceday():
         return False
 
 
+def markdown_table(df_path, drivers=True):
 
+    df = pd.read_excel(wdir + df_path)
+    df = df.drop(['Timestamp'], axis=1)
+
+    if drivers:
+        table = """| Driver | Price | Driver | Price |
+                   |----|----|----|----|"""
+    else:
+        table = """| Team | Price | Team | Price |
+                           |----|----|----|----|"""
+    count = 1
+    newrow = ""
+    for column in df:
+        if count % 2 == 0:
+            newrow += f" {column} | ${df[column].iloc[-1]}M |"
+            table += "\n" + newrow
+            newrow = ""
+            count += 1
+        else:
+            newrow += f"| {column} | {df[column].iloc[-1]} |"
+            count += 1
+
+    return table
 
 
 

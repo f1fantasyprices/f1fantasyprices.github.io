@@ -3,7 +3,7 @@
 ![driver_prices](./script/modules/data/resources/driver_prices.png)
 
 | Driver | Price | Driver | Price |
-                   |----|----|----|----|
+               |----|----|----|----|
 | L. Hamilton | 11 | V. Bottas | $5M |
 | M. Verstappen | 35 | C. Leclerc | $11M |
 | S. Vettel | 20 | A. Albon | $16M |
@@ -17,13 +17,11 @@
 
 ![constructor](./script/modules/data/resources/constructor_prices.png)
 
-| Team | Price | Team | Price |
-                           |----|----|----|----|
+| Driver | Price | Driver | Price |
+               |----|----|----|----|
 | Mercedes | 23 | Alfa Romeo | $19M |
 | Ferrari | 7 | Williams | $16M |
 | Red Bull | -3 | AlphaTauri | $17M |
 | Renault | 17 | Racing Point | $24M |
 | Haas | 4 | McLaren | $-1M |
-
-Last updated at <built-in method now of type object at 0x00007FF91425B530>
 
