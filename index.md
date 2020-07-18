@@ -25,5 +25,5 @@
 | Renault | 17 | Racing Point | $24M |
 | Haas | 4 | McLaren | $-1M |
 
-Last updated at <built-in method now of type object at 0x00007FF91425B530>
+Last updated at 2020-07-18 23:48:09.720322
 

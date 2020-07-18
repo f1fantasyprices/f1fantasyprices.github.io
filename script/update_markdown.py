@@ -10,7 +10,7 @@ ddf = "/data/resources/driver_prices.xlsx"
 cdf = "/data/resources/constructor_prices.xlsx"
 
 
-
+## This script updates the webpage with new graphs and driver price tables
 
 mytext = f"""
 
@@ -22,7 +22,7 @@ mytext = f"""
 
 {markdown_table(cdf, drivers = False)}
 
-Last updated at {datetime.datetime.now}
+Last updated at {datetime.datetime.now()}
 
 """
 
