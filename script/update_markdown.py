@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-from script.modules.helpers import markdown_table
+from modules.helpers import markdown_table
 import datetime
 import unidecode
 

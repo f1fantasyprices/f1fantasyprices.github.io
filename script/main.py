@@ -1,10 +1,10 @@
 
-from script.modules.create_webdriver import create_webdriver
+from modules.create_webdriver import create_webdriver
 
-from script.modules.get_prices import get_prices
+from modules.get_prices import get_prices
 import time
-from script.modules.grapher import plot_prices
-from script.modules.helpers import check_raceday
+from modules.grapher import plot_prices
+from modules.helpers import check_raceday
 import os
 import sys
 

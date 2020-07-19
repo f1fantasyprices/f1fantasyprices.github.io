@@ -1,11 +1,10 @@
 import pandas as pd
-import seaborn as sns
 import matplotlib.pyplot as plt
 import os
 import matplotlib
-from script.modules.xpaths import get_driver_colors, get_team_colors, get_abrreviated_names
+from modules.xpaths import get_driver_colors, get_team_colors, get_abrreviated_names
 from matplotlib.dates import DateFormatter
-
+import seaborn as sns
 
 sns.set(style="whitegrid")
 wdir = os.path.dirname(os.path.abspath(__file__))
