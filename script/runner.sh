@@ -8,7 +8,7 @@ i=0
 
 while [ $i -le 5 ]; do
 
-	python3 test.py
+	python3 main.py
 
 	if [ $? -eq 0 ]; then
 		echo "Successfully ran script"
