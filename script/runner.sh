@@ -17,8 +17,8 @@ while [ $i -le 5 ]; do
 		now=$(date +'%r')
 		
 		git add .
-		git commit -m "updating prices at $now"
-		git push -u origin master
+		echo "f1fantasyprices" | git commit -m "updating prices at $now"
+		echo "ferrari95?" | git push -u origin master
 		
 		break		
 		
