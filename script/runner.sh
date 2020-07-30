@@ -6,13 +6,11 @@
 i=0
 
 
-while true; 
-do
+while [ $i -le 5 ]; do
 
-	python test.py
+	python3 test.py
 
-	if [ $? -eq 0 ]
-	then
+	if [ $? -eq 0 ]; then
 		echo "Successfully ran script"
 		pkill -f firefox		
 		
@@ -27,16 +25,13 @@ do
 
 	else
 		pkill -f firefox
-		sleep 30
+		sleep 10
 		echo "some error"
-		i =$((i+1))
-		if [ i > 5 ]
-		then
-			echo "failed"
-		
-			break
-
-		fi
+		i=$(( i+1 ))
+		echo "$i"
 
 	fi
+
 done
+
+echo "failed"

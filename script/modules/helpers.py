@@ -141,7 +141,7 @@ def get_drivers(html):
 
 # Select additional random drivers, but stay under budget
 def update_driver_prices(df,filename):
-    now = datetime.datetime.now()
+    now = datetime.now()
 
     dprices_df = pd.read_excel(filename)
     print(f"STARTING DF##################################{filename}")
@@ -149,7 +149,7 @@ def update_driver_prices(df,filename):
 
     #Create new row to add
     new_prices = {}
-    new_prices['Timestamp'] = datetime.datetime(now.year, now.month, now.day, now.hour)
+    new_prices['Timestamp'] = datetime(now.year, now.month, now.day, now.hour)
 
     for row in df.iterrows():
         new_prices[row[1]['name']] = float(row[1]['price'][1:row[1]['price'].find("m")])
