@@ -10,6 +10,6 @@ This repository hosts a simple website to track driver and constructor prices fo
 4. Update_markdown.py updates the index.md landing page.
 5. Bash script pushes everything to this repo every hour, with the latest driver prices.
 
-
+.
 
 
