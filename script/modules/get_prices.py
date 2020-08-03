@@ -1,4 +1,3 @@
-
 from modules.xpaths import get_xpaths
 from modules.helpers import *
 import os
@@ -22,6 +21,9 @@ def get_prices(webdriver, credentials):
     webdriver.find_element_by_class_name(xpaths['password']).send_keys(credentials['password'])
     webdriver.find_element_by_css_selector(xpaths['sign_in_btn']).click()
 
+    element_load(webdriver, xpaths["hulk"], 10, "xpath")
+    webdriver.find_element_by_xpath(xpaths['hulk']).click()
+    time.sleep(1)
 
     element_load(webdriver, xpaths["manage"], 10, "xpath")
     time.sleep(5)
@@ -38,8 +40,14 @@ def get_prices(webdriver, credentials):
     click_by_text(webdriver, 'div', 'Next')
     element_load(webdriver, xpaths["next_1"], 10, "xpath")
     click_by_text(webdriver, 'div', 'Next')
-    element_load(webdriver, xpaths["done"], 10, "xpath")
-    webdriver.find_element_by_xpath(xpaths['done']).click()
+
+    try:	
+    	element_load(webdriver, xpaths["done"], 10, "xpath")
+    	webdriver.find_element_by_xpath(xpaths['done']).click()
+    
+    except:
+    	print('bullshit')
+
 
     time.sleep(2)
     element_load(webdriver, xpaths["expose_list"], 10, "xpath")

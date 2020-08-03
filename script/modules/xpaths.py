@@ -9,7 +9,7 @@ def get_xpaths():
         "password" : "txtPassword",
 
         "sign_in_btn" : "#loginform > div:nth-child(4) > button:nth-child(2)",
-
+	"hulk" : "/html/body/div[3]/div/div/main/footer/button/div[1]/span",
         "swap_driver_1" : "player-slot__header",
         "manage" : """.//span[text()='Manage']""",
         "next_1" : """.//div[text()='Next'] """,
