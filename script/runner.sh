@@ -12,16 +12,14 @@ while [ $i -le 5 ]; do
 
 	if [ $? -eq 0 ]; then
 		echo "Successfully ran script"
-		pkill -f firefox		
-		
+		pkill -f firefox
 		now=$(date +'%r')
-		
+
 		git add .
-		echo "f1fantasyprices" | git commit -m "updating prices at $now"
-		echo "ferrari95?" | git push -u origin master
-		
-		break		
-		
+		git commit -m "updating prices at $now"
+		git push -u origin master
+		break
+
 
 	else
 		pkill -f firefox
